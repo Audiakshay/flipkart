@@ -6,7 +6,7 @@ function Category() {
 
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/category");
+      const res = await axios.get("http://localhost:3004/category");
       console.log(res.data);
       setCategory(res.data);
     } catch (error) {

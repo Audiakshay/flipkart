@@ -23,7 +23,8 @@ const CardSlider = ({ pro, card }) => {
     },
   };
   return (
-    <div className="flex m-2 mb-4 py-12 bg-white shadow-lg">
+    <div className="m-2 mb-4 py-12 bg-white shadow-lg">
+      <div className="flex">
       <div className="text-3xl text-center py-10 px-10">
         <p>Best of {card}</p>
         <button className="bg-blue-600 text-xs h-8 w-20 text-white rounded-sm mt-7">
@@ -41,6 +42,7 @@ const CardSlider = ({ pro, card }) => {
           </div>
         ))}
       </Carousel>
+    </div>
     </div>
   );
 };

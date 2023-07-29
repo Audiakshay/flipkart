@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import productsAction from "../Redux/Actions/ProductsList";
+import React from "react";
+import { useSelector } from "react-redux";
 import CardSlider from "../Components/CardSlider";
 
 const Home = () => {
-  const dispatch = useDispatch();
   const pro = useSelector((state) => state?.products);
-  console.log(pro?.electronics);
-  useEffect(() => {
-    dispatch(productsAction());
-  }, []);
   return (
     <>
       <CardSlider pro={pro?.electronics} card="Electronics" />

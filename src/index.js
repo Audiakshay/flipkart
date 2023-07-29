@@ -5,12 +5,12 @@ import "./index.css";
 import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/Store";
-import Home from "./Screens/Home";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <Home />
+    <App />
   </Provider>
 );
 
