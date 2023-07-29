@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useDispatch, useSelector } from "react-redux";
+import productsAction from "../Redux/Actions/ProductsList";
+import axios from "axios";
 
 const CardSlider = () => {
+  const dispatch = useDispatch();
+  const pro = useSelector(state => state?.products);
+  useEffect(() => {
+    dispatch(productsAction());
+  }, []);
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -23,14 +31,22 @@ const CardSlider = () => {
     },
   };
   return (
-    <div className="">
-      <Carousel responsive={responsive}>
+    <div className="flex border-2">
         <div>
-            <img src="https://rukminim2.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70" alt="camera" />
+            <p>
+                Best of Electronics
+            </p>
+            <button>View All</button>
         </div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
+      <Carousel responsive={responsive}>
+        {pro.map(x => (
+            <div key={x}>
+                <img
+            src={x.img}
+            alt="camera"
+          />
+            </div>
+        ))}
       </Carousel>
     </div>
   );
