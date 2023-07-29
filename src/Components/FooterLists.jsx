@@ -4,7 +4,7 @@ import clsx from 'clsx';
 function FooterLists({title, list}) {
   return (
     <div className={clsx('mx-2', {
-        'border-l border-indigo-300 pl-8': title === 'Mail Us:'
+        'md:border-l border-indigo-300 md:pl-8': title === 'Mail Us:'
     })}>
         <p className='text-gray-500 font-semibold text-sm my-3'>{title}</p>
         <ul>{list.map((x) => <li key={x} className={clsx('text-white font-bold text-sm',{ 'text-xs': title === 'Mail Us:' || title === 'Registered Office Address:'})}>
