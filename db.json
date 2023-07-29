@@ -1,12 +1,44 @@
 {
-  "products": [
+  "electronics": [
     {
-      "electronics": [
-        {
-          "img": "https://rukminim2.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70"
-        }
-      ],
+      "img": "https://rukminim2.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
       "id": 1
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/flap/200/200/image/20c224cd52ae7a87.jpg?q=70",
+      "id": 2
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg?q=70",
+      "id": 3
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70",
+      "id": 4
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/xif0q/power-bank/j/i/v/power-bank-dx09-20000-mah-20000-dx09-20k-callmate-original-imagn22tuac3hqnz.jpeg?q=70",
+      "id": 5
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/kl9rssw0/monitor/y/c/2/proart-display-pa278qv-27-pa278qv-asus-original-imagyfpfyzwgdygs.jpeg?q=70",
+      "id": 6
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70",
+      "id": 7
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/jpmxuvk0/printer-refurbished/z/r/z/u-ts207-canon-original-imafbu3xpytszpgx.jpeg?q=70",
+      "id": 8
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/xif0q/projector/5/c/h/o9-pro-android-automatic-full-hd-24-o52q62-full-hd-egate-original-imagrpnr3nhejh5y.jpeg?q=70",
+      "id": 9
+    },
+    {
+      "img": "https://rukminim2.flixcart.com/image/200/200/kr3tj0w0/monitor/j/h/s/se2422h-24-se2422h-dell-original-imag4zaejxdgkv8f.jpeg?q=70",
+      "id": 10
     }
   ],
   "category": [
