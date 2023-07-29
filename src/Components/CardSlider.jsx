@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useDispatch, useSelector } from "react-redux";
 import productsAction from "../Redux/Actions/ProductsList";
-import axios from "axios";
 
 const CardSlider = () => {
   const dispatch = useDispatch();
-  const pro = useSelector(state => state?.products);
+  const pro = useSelector((state) => state?.products);
   useEffect(() => {
     dispatch(productsAction());
   }, []);
@@ -31,21 +30,22 @@ const CardSlider = () => {
     },
   };
   return (
-    <div className="flex border-2">
-        <div>
-            <p>
-                Best of Electronics
-            </p>
-            <button>View All</button>
-        </div>
+    <div className="flex m-2 bg-white shadow-xl">
+      <div className="text-3xl text-center py-10">
+        <p>Best of Electronics</p>
+        <button className="bg-blue-600 text-xs h-8 w-20 text-white rounded-sm mt-7">
+          VIEW ALL
+        </button>
+      </div>
       <Carousel responsive={responsive}>
-        {pro.map(x => (
-            <div key={x}>
-                <img
-            src={x.img}
-            alt="camera"
-          />
+        {pro.map((x) => (
+          <div key={x} className="flex flex-col items-center h-full">
+            <div className="h-[70%]">
+            <img src={x.img} alt="camera" className="h-[90%]" />
             </div>
+            <p className="font-medium text-lg">{x.title}</p>
+            <p className="font-normal text-green-700 text-base">Min. 90% Off</p>
+          </div>
         ))}
       </Carousel>
     </div>
