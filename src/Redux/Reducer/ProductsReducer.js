@@ -1,8 +1,8 @@
-const initState = [];
 
-const GetProducts = (state = initState, { type, payload }) => {
+
+const GetProducts = (state = {}, { type, payload }) => {
   switch (type) {
-    case "productAction":
+    case "actionProduct":
       return payload;
     default:
       return state;
