@@ -4,7 +4,6 @@ const productsAction = () => {
   return async (dispatch) => {
     const res = await axiosInstance.get("/products");
     const data = await res.data;
-    console.log(data);
     dispatch({ type: "actionProduct", payload: data });
   };
 };
