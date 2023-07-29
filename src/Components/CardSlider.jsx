@@ -11,7 +11,7 @@ const CardSlider = ({ pro, card }) => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 5,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -25,7 +25,7 @@ const CardSlider = ({ pro, card }) => {
   return (
     <div className="m-2 mb-4 py-12 bg-white shadow-lg">
       <div className="flex">
-      <div className="text-3xl text-center py-10 px-10">
+      <div className="text-3xl text-center py-10 w-[30%] pr-12">
         <p>Best of {card}</p>
         <button className="bg-blue-600 text-xs h-8 w-20 text-white rounded-sm mt-7">
           VIEW ALL
@@ -33,10 +33,10 @@ const CardSlider = ({ pro, card }) => {
       </div>
       <Carousel responsive={responsive}>
         {pro?.map((x) => (
-          <div key={x} className="flex-col items-center h-full">
-            <div className="h-[70%]">
-              <img src={x.img} alt="camera" className="h-[90%]" />
-            </div>
+          <div key={x} className="flex-col h-full">
+            {/* <div className=" w-[30%]"> */}
+              <img src={x.img} alt="camera" />
+            {/* </div> */}
             <p className="font-medium text-lg">{x.title}</p>
             <p className="font-normal text-green-700 text-base">Min. 90% Off</p>
           </div>
