@@ -4,12 +4,14 @@ import reportWebVitals from "./reportWebVitals";
 import CardSlider from "./Components/CardSlider";
 import "./index.css";
 import "./App.css";
+import { Provider } from "react-redux";
+import store from "./Redux/Store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <CardSlider />
-  </React.StrictMode>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

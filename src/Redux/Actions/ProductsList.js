@@ -1,11 +1,11 @@
-import axiosInstance from "../../utils/AxiosInstance"
+import axiosInstance from "../../utils/AxiosInstance";
 
-const products = (actionType) => {
-    return async (dispatch) => {
-        const res = await axiosInstance.get('/products');
-        const data = await res.data;
-        dispatch({type: actionType, payload: data});
-    }
+const productsAction = () => {
+  return async (dispatch) => {
+    const res = await axiosInstance.get("/electronics");
+    const data = await res.data;
+    dispatch({ type: "productAction", payload: data });
+  };
 };
 
-export default products;
+export default productsAction;
