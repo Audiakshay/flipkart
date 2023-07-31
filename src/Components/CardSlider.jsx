@@ -13,12 +13,12 @@ const CardSlider = ({ pro, card }) => {
         </div>
         <Swiper spaceBetween={30} slidesPerView={6}>
           {pro?.map((x) => (
-            <SwiperSlide>
+            <SwiperSlide key={x.id}>
               <div className="h-[82%]">
               <img src={x.img} alt="..." />
               </div>
-              <p>{x.title}</p>
-              <p>Min 90% Off</p>
+              <p className="font-medium te">{x.title}</p>
+              <p className="text-green-600">Min 90% Off</p>
             </SwiperSlide>
           ))}
         </Swiper>
