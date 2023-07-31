@@ -1,4 +1,4 @@
-import axios from "axios";
+import axiosInstance from "../utils/AxiosInstance";
 import React, { useEffect, useState } from "react";
 
 function Category() {
@@ -6,7 +6,7 @@ function Category() {
 
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:3004/category");
+      const res = await axiosInstance.get("/category");
       console.log(res.data);
       setCategory(res.data);
     } catch (error) {
