@@ -9,6 +9,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import mobileAction from "./Redux/Actions/MobileAction";
 import MobilePage from "./Screens/MobilePage";
+import Groceries from "./Screens/Groceries";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -19,8 +20,9 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Category />
-      <Home />
+      <Groceries />
+      {/* <Category />
+      <Home /> */}
       {/* <MobilePage />
       <Footer /> */}
     </>
