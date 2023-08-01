@@ -4,6 +4,9 @@ import productsAction from "./Redux/Actions/ProductsList";
 import Home from "./Screens/Home";
 import Category from "./Components/Category";
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 
 const App = () => {
   const dispatch = useDispatch();
@@ -12,6 +15,7 @@ const App = () => {
   }, []);
   return (
     <>
+    <Navbar />
       <Category />
       <Home />
       <Footer />
