@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
 import GetProducts from "./ProductsReducer";
-import GetMobile from "./MobileReducer";
+import fashion from "./fashionProducts";
 
 const rootReducer = combineReducers({
     products: GetProducts,
-    mobi: GetMobile,
+    fashion,
 });
 
 export default rootReducer;
