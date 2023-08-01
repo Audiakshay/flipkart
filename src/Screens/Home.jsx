@@ -1,12 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import CardSlider from "../Components/CardSlider";
-<<<<<<< HEAD
 import Carousal from "../Components/Carousal";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-=======
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Description from "../Components/Description";
->>>>>>> e769c476b7edd94afce88d104323a7b1ca485b54
+
 
 const Home = () => {
   const pro = useSelector((state) => state?.products);

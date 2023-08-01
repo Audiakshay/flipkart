@@ -12,11 +12,6 @@
     "clsx": "^2.0.0",
     "json-server": "^0.17.3",
     "react": "^18.2.0",
-<<<<<<< HEAD
-    "react-bootstrap": "^2.8.0",
-=======
-    "react-bootstrap-icons": "^1.10.3",
->>>>>>> e769c476b7edd94afce88d104323a7b1ca485b54
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.4",
     "react-redux": "^8.1.1",
