@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 function FashionProduct({product}) {
   return (
-    <div className='w-[22vw] shadow-lg m-1'>
+    <div className='w-[22vw] shadow-md m-1'>
           <img className='w-[100%] h-[40vh] object-contain' src={product.image} alt="" />
         <div className='p-3'>
         <p className='text-[#878787] font-semibold text-sm'>{product.category}</p>
