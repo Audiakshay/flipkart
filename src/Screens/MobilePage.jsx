@@ -19,7 +19,7 @@ const MobilePage = () => {
 
   return (
     <>
-      <div className="flex gap-16 justify-center h-12 shadow-md items-center">
+      <div className="flex justify-evenly h-12 shadow-md items-center">
         {nav.map((x) => (
           <h2 className="text-sm font-bold">{x}</h2>
         ))}
