@@ -10,13 +10,8 @@ import Category from "../Components/Category";
 
 
 const Home = () => {
+  
   const pro = useSelector((state) => state?.products);
-
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(mobileAction());
-    dispatch(productsAction());
-  }, []);
 
   return (
     <>

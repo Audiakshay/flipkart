@@ -40,7 +40,7 @@ function Travel() {
                   <p className='text-white font-semibold'>More<p></p></p>
               </div>  */}
           {/* </div> */}
-          <div className='mt-5 relative'>
+          <div className='relative'>
               <h1 className='absolute top-5 left-[40%] text-3xl text-slate-100 font-[Rufina]'>Get. Set. Travel</h1>
               <img alt='' className='h-[80vh] w-[100vw] ' src='https://images.ctfassets.net/wqdtr8q8192q/28KbLkjsWV6G0MV11VfXmE/a2d73238229bfda923152ed30aa905ec/iStock-1353245759.jpg' />
               <div className='flex justify-center flex-col h-[30vh] w-[80vw] bg-white absolute top-[30vh] left-[10vw] rounded-md'>
@@ -65,7 +65,7 @@ function Travel() {
                   </div>
               </div>
           </div>
-          <div className='mb-4'>
+          <div className='mb-2'>
                   <img alt='' className='h-[25vh] w-[100%]' src='https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/314d78512857f86d.png?q=50' />
           </div>
           <div>

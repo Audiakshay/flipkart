@@ -13,6 +13,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import DashBoard from "./Layout/DashBoard";
 import ADB from "./Screens/ADB";
 import Travel from "./Screens/Travel";
+import Fashion from "./Screens/Fashion";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -33,8 +34,8 @@ const App = () => {
           element: <Travel />
         },
         {
-          index: true,
-          element: <Home />
+          path: 'fashion',
+          element: <Fashion />
         },
       ]
       
