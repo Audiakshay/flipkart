@@ -3,7 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 function Carousal({ pro, card }) {
     return (
 
-        <><Carousel data-bs-theme="dark">
+        <>
+        {/* <Carousel data-bs-theme="dark">
             {pro?.map((x) => (
 
                 <Carousel.Item>
@@ -21,7 +22,26 @@ function Carousal({ pro, card }) {
 
                 </Carousel.Item>
             ))}
-        </Carousel><div className='row m-auto p-2'>
+        </Carousel> */}
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+  {pro?.map((x) => (
+    <div className="carousel-item active">
+      <img src={x.img} className="d-block w-100" alt="..."/>
+    </div>
+  ))}
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+        
+        <div className='row m-auto p-2'>
                 <div className='col-3 '>
                     <div className='p-2 bg-white'>
                         <h1 style={{ fontSize: '22px', fontWeight: '800' }}>Great Freedom sale</h1>

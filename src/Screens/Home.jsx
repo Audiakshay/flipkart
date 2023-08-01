@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import CardSlider from "../Components/CardSlider";
 import Carousal from "../Components/Carousal";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import Description from "../Components/Description";
 
 
