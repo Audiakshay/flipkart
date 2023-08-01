@@ -1,5 +1,3 @@
-
-
 const GetProducts = (state = {}, { type, payload }) => {
   switch (type) {
     case "actionProduct":
