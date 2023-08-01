@@ -2,19 +2,19 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 function Carousal({ pro, card }) {
     return (
-       
+
         <><Carousel data-bs-theme="dark">
             {pro?.map((x) => (
 
                 <Carousel.Item>
-                    <div className='row'>
-                       
-                        <div className='col-7'> <img
+                    <div >
+
+                        <img
                             className="d-block w-100"
                             src={x.img}
                             alt="Third slide" /></div>
 
-                    </div>
+
 
 
                 </Carousel.Item>
@@ -61,7 +61,7 @@ function Carousal({ pro, card }) {
                 </div>
 
             </div></>
-     
+
     );
 }
 
