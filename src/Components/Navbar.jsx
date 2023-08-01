@@ -15,7 +15,7 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="search for products, brands and more"
-          className="self-center w-96"
+          className="self-center w-96 text-black outline-none"
         />
         <img src={search} alt="" className="h-4 self-center" />
       </div>

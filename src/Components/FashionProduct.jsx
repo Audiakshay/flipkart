@@ -4,15 +4,16 @@ import clsx from 'clsx';
 
 function FashionProduct({product}) {
   return (
-    <div className='w-[22vw] shadow-md m-1'>
-          <img className='w-[100%] h-[40vh] object-contain' src={product.image} alt="" />
+    <div className='w-[23vw] shadow-md m-1 relative'>
+        <img className='w-8 h-8 absolute top-0 right-12' src={require('../assets/heart.png')} alt='heart_icon'/>
+          <img className='w-[100%] h-[50vh] object-contain' src={product.image} alt="" />
         <div className='p-3'>
         <p className='text-[#878787] font-semibold text-sm'>{product.category}</p>
         <p className='font-bold text-[#212121] line-clamp-1'>{product.title}</p>
         <div className='flex'>
-            <p className='font-bold'>&#8377;369</p>
-            <p className='text-[#878787] line-through mx-3 font-semibold'>&#8377;1,849</p>
-            <p className='font-semibold text-[#388e3c]'>80% off</p>
+            <p className='font-bold'>&#8377;{product.price}</p>
+            <p className='text-[#878787] line-through mx-3 font-semibold'>&#8377;{(product.price + (product.price * product.offer)).toFixed(2)}</p>
+            <p className='font-semibold text-[#388e3c]'>{product.offer * 100}% off</p>
         </div>
         <p className='text-xs text-[#212121] my-1'>Free delivery</p>
         <div className="flex items-center">
@@ -22,7 +23,7 @@ function FashionProduct({product}) {
               className={clsx(
                 'h-4 w-4 flex-shrink-0 text-gray-300',
                 {
-                  'text-orange-400': 3 > ratings,
+                  'text-orange-400': product.rating.rate > ratings,
                 },
               )}
               aria-hidden="true"
