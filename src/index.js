@@ -6,12 +6,11 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/Store";
 import App from "./App";
-import MobileNav from "./Screens/MobileNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <MobileNav />
+    <App />
   </Provider>
 );
 
