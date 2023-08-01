@@ -9,21 +9,41 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import mobileAction from "./Redux/Actions/MobileAction";
 import MobilePage from "./Screens/MobilePage";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import DashBoard from "./Layout/DashBoard";
+import ADB from "./Screens/ADB";
+import Travel from "./Screens/Travel";
 
 const App = () => {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(mobileAction());
-    dispatch(productsAction());
-  }, []);
+  const route = createBrowserRouter([
+    {
+      path: '/',
+      element: <DashBoard />,
+      children: [
+        {
+          index: true,
+          element: <Home />
+        },
+        {
+          path: 'mobile',
+          element: <MobilePage />
+        },
+        {
+          path: 'travel',
+          element: <Travel />
+        },
+        {
+          index: true,
+          element: <Home />
+        },
+      ]
+      
+    }
+  ])
+
   return (
-    <>
-      <Navbar />
-      <Category />
-      <Home />
-      {/* <MobilePage />
-      <Footer /> */}
-    </>
+    <RouterProvider router={route} />
+      
   );
 };
 
