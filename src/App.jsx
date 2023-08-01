@@ -19,10 +19,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      {/* <Category />
-      <Home /> */}
-      <MobilePage />
-      <Footer />
+      <Category />
+      <Home />
+      {/* <MobilePage />
+      <Footer /> */}
     </>
   );
 };
