@@ -8,6 +8,7 @@ const MobileNav = () => {
         dispatch(mobileAction());
       }, []);
       const list = useSelector(state => state?.mob?.list);
+      console.log(list);
 
   return (
     <><div className='mx-2'>
