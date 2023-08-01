@@ -98,7 +98,7 @@ const MobilePage = () => {
         />
       </div>
       <div className="bg-white mt-8 shadow-black shadow-md px-6 py-8">
-        {list.map((x) => (
+        {list?.map((x) => (
           <>
             <h2 className="text-[#878787] text-sm font-bold my-2">{x.title}</h2>
             <p className="text-xs text-[#878787]">{x.desc}</p>
