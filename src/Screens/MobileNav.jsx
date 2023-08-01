@@ -7,7 +7,7 @@ const MobileNav = () => {
     useEffect(() => {
         dispatch(mobileAction());
       }, []);
-      const list = useSelector(state => state?.mob?.list);
+      const list = useSelector(state => state?.mobi?.list);
       console.log(list);
 
   return (

@@ -4,7 +4,7 @@ import GetMobile from "./MobileReducer";
 
 const rootReducer = combineReducers({
     products: GetProducts,
-    mob: GetMobile,
+    mobi: GetMobile,
 });
 
 export default rootReducer;
