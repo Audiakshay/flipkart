@@ -9,13 +9,13 @@ import question from "../assets/question.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around bg-indigo-900 text-white h-14 px-44">
+    <div className="flex sticky top-0 w-full justify-around bg-indigo-900 text-white h-14 px-44 z-10">
       <img src={logo} alt="" className="h-10 self-center" />
       <div className="search flex bg-white w-96 justify-between h-10 self-center p-2 px-3">
         <input
           type="text"
           placeholder="search for products, brands and more"
-          className="self-center w-96"
+          className="self-center w-96 text-black outline-none"
         />
         <img src={search} alt="" className="h-4 self-center" />
       </div>
