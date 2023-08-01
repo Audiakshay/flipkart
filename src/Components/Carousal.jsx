@@ -12,7 +12,9 @@ function Carousal({ pro, card }) {
                         <img
                             className="d-block w-100"
                             src={x.img}
-                            alt="Third slide" /></div>
+                            alt="Third slide" />
+                            
+                            </div>
 
 
 
