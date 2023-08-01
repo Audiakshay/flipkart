@@ -44,7 +44,7 @@ function Footer() {
         ))
     }</div>
     <div className='md:flex items-center justify-evenly border-t border-indigo-300 py-6 px-5'>
-        <div className='flex w-[45%] justify-around'>
+        <div className='lg:flex w-[45%] justify-around'>
             {addList.map((item) => (
                 <div key={item.title} className='flex items-center py-2'>
                     <img className='w-4 h-4 mr-2' src={item.icon} alt="icon" />
