@@ -21,7 +21,7 @@ const MobilePage = () => {
     <>
       <div className="flex justify-evenly h-12 shadow-md items-center">
         {nav.map((x) => (
-          <h2 className="text-sm font-bold">{x}</h2>
+          <h2 key={x} className="text-sm font-bold">{x}</h2>
         ))}
       </div>
       <div className="mx-2">
@@ -99,10 +99,10 @@ const MobilePage = () => {
       </div>
       <div className="bg-white mt-8 shadow-black shadow-md px-6 py-8">
         {list?.map((x) => (
-          <>
+          <div key={x.id}>
             <h2 className="text-[#878787] text-sm font-bold my-2">{x.title}</h2>
             <p className="text-xs text-[#878787]">{x.desc}</p>
-          </>
+          </div>
         ))}
       </div>
     </>

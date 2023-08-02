@@ -11,7 +11,6 @@ import mobileAction from "./Redux/Actions/MobileAction";
 import MobilePage from "./Screens/MobilePage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import DashBoard from "./Layout/DashBoard";
-import ADB from "./Screens/ADB";
 import Travel from "./Screens/Travel";
 import Fashion from "./Screens/Fashion";
 import Appliances from "./Screens/Appliances";

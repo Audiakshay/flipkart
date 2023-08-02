@@ -24,9 +24,9 @@ const Navbar = () => {
       </button>
       <p className="align-self-center mt-3">Become a Seller</p>
 
-      <div class="dropdown self-center">
+      <div className="dropdown self-center">
         <button
-          class="btn text-white dropdown-toggle"
+          className="btn text-white dropdown-toggle"
           type="button"
           id="dropdownMenuButton1"
           data-bs-toggle="dropdown"
@@ -35,18 +35,18 @@ const Navbar = () => {
           More
         </button>
         <ul
-          class="dropdown-menu p-3 mt-2"
+          className="dropdown-menu p-3 mt-2"
           aria-labelledby="dropdownMenuButton1"
         >
           <li>
-            <a class="dropdown-item d-flex justify-content-between" href="#">
+            <a className="dropdown-item d-flex justify-content-between" href="#">
               <img src={bell} alt="" className="h-5 align-self-center mr-3" />
               Notification Preferences
             </a>
           </li>
           <hr />
           <li>
-            <a class="dropdown-item d-flex" href="#">
+            <a className="dropdown-item d-flex" href="#">
               <img
                 src={question}
                 alt=""
@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <hr />
           <li>
-            <a class="dropdown-item d-flex" href="#">
+            <a className="dropdown-item d-flex" href="#">
               <img src={trend} alt="" className="h-5 align-self-center mr-3" />
               Advertise
             </a>
