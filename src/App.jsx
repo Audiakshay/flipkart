@@ -9,11 +9,11 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import mobileAction from "./Redux/Actions/MobileAction";
 import MobilePage from "./Screens/MobilePage";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
-import Fashion from "./Screens/Fashion";
 import Appliances from "./Screens/Appliances";
+import Fashion from "./Screens/Fashion";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -47,8 +47,13 @@ const App = () => {
   ])
 
   return (
-    <RouterProvider router={route} />
-      
+    <>
+      <Navbar />
+      <Category />
+      <Home />
+      {/* <MobilePage />
+      <Footer /> */}
+    </>
   );
 };
 
