@@ -22,7 +22,7 @@ const Navbar = () => {
       <button className="bg-white w-40 h-10 self-center text-black">
         Login
       </button>
-      <p className="align-self-center mt-3">Become a Seller</p>
+      <p className="align-self-center">Become a Seller</p>
 
       <div className="dropdown self-center">
         <button
@@ -39,7 +39,10 @@ const Navbar = () => {
           aria-labelledby="dropdownMenuButton1"
         >
           <li>
-            <a className="dropdown-item d-flex justify-content-between" href="#">
+            <a
+              className="dropdown-item d-flex justify-content-between"
+              href="#"
+            >
               <img src={bell} alt="" className="h-5 align-self-center mr-3" />
               Notification Preferences
             </a>
