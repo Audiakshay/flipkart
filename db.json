@@ -385,56 +385,48 @@
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100",
       "id": 2,
       "route": "mobile"
-
     },
     {
       "title": "Fashion",
       "img": "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100",
       "id": 3,
       "route": "fashion"
-
     },
     {
       "title": "Electronics",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100",
       "id": 4,
       "route": "/"
-
     },
     {
       "title": "Home & Furniture",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100",
       "id": 5,
       "route": "/"
-
     },
     {
       "title": "Appliances",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/0ff199d1bd27eb98.png?q=100",
       "id": 6,
       "route": "appliances"
-
     },
     {
       "title": "Travel",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100",
       "id": 7,
       "route": "travel"
-
     },
     {
       "title": "Top Offers",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/f15c02bfeb02d15d.png?q=100",
       "id": 8,
       "route": "/"
-
     },
     {
       "title": "Beauty, Toys & More",
       "img": "https://rukminim1.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100",
       "id": 9,
       "route": "/"
-
     },
     {
       "title": "Two Wheelers",
@@ -902,66 +894,69 @@
   "appliances": {
     "carousel": [
       {
-        "url": "https://rukminim2.flixcart.com/flap/844/140/image/7b019cbf9d0c4186.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/1688/280/image/45c7da48a2c911eb.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/50/50/image/45c7da48a2c911eb.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/1688/280/image/7b019cbf9d0c4186.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/1688/280/image/91bbf5952f85962c.jpg?q=50"
       }
     ],
     "cards": [
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/235adb0c7e08598a.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/235adb0c7e08598a.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/72916224131596eb.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/72916224131596eb.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/72f8581bfea9cbc9.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/72f8581bfea9cbc9.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/eebfa3bd65729673.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/eebfa3bd65729673.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/a11a507eb2e7d6d3.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/8017a9c581c355c0.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/931cd88fff8afe53.jpg?q=50"
       },
       {
-        "url": "https://rukminim2.flixcart.com/flap/100/100/image/d9954d5e398b8e38.jpg?q=50"
+        "url": "https://rukminim2.flixcart.com/flap/400/400/image/931cd88fff8afe53.jpg?q=50"
       }
     ],
-    "banner": "https://rukminim2.flixcart.com/fk-p-flap/50/50/image/e8aa5d1561448d40.jpg?q=50",
+    "banner": "https://rukminim2.flixcart.com/fk-p-flap/1800/1800/image/e8aa5d1561448d40.jpg?q=80",
     "starBrands": {
       "title": "Star Brands",
       "subTitle": "Top-Brands for you!",
       "cards": [
         {
-          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/e1ef54e6b7d4b397.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/f0c628a115217f53.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/f0c628a115217f53.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/6bc444dacd6be318.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/4d9172fcafb80124.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/e1ef54e6b7d4b397.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/6bc444dacd6be318.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/e1ef54e6b7d4b397.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/b0169d1c9d207c04.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/795f390632277222.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/0483b6fed863421a.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/b0169d1c9d207c04.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/0483b6fed863421a.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/b0169d1c9d207c04.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/d7b652afb2a0fb3f.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/d7b652afb2a0fb3f.jpg?q=50"
         }
       ]
     },
@@ -970,16 +965,16 @@
       "subTitle": "Exciting New Launches for you!",
       "cards": [
         {
-          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/b17c7f27bcc877f4.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/b17c7f27bcc877f4.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/01b928072cdda4b3.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/b17c7f27bcc877f4.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/edcc4a6e114e00c8.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/edcc4a6e114e00c8.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/4acda2bccff6d474.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/edcc4a6e114e00c8.jpg?q=50"
         }
       ]
     },
@@ -988,16 +983,16 @@
       "subTitle": "Finest technology only for you!",
       "cards": [
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/ddfc94ae3da03a2d.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/ddfc94ae3da03a2d.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/ed34de5e789a9755.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/ed34de5e789a9755.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/6fe579f2af1910db.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/6fe579f2af1910db.jpg?q=50"
         },
         {
-          "url": "https://rukminim2.flixcart.com/flap/100/100/image/b0cfc7f57005c3d1.jpg?q=50"
+          "url": "https://rukminim2.flixcart.com/flap/400/400/image/b0cfc7f57005c3d1.jpg?q=50"
         }
       ]
     }
