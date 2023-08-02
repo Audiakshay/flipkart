@@ -7,7 +7,7 @@ function Carousal({ pro, card }) {
                 style={{ height: '200px' }}>
                 <div className="carousel-inner">
                     {pro?.map((x) => (
-                        <div className="carousel-item active">
+                        <div key={x.id} className="carousel-item active">
                            <a href="" ><img src={x.img} className="d-block w-100" alt="..." /></a>
                         </div>
                     ))}
