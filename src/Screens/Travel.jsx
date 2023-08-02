@@ -102,9 +102,9 @@ function Travel() {
         {expand && (
           <Dropdown
             style={clsx(
-              "w-[14%] shadow-lg justify-around px-2 flex flex-col bg-white h-[35vh] absolute top-[57vh] left-[12vw] z-30",
+              "w-[14%] shadow-lg justify-around px-2 flex flex-col bg-white h-[35vh] absolute top-[57vh] left-[9vw] z-30",
               {
-                "left-[28vw]": inputName === "to",
+                "left-[24vw] z-30": inputName === "to",
               }
             )}
             name={cities}
@@ -120,7 +120,7 @@ function Travel() {
         )}
         {expandTravel && (
           <Dropdown
-            style="absolute w-[14vw] top-[57vh] left-[67vw] shadow-lg justify-around px-2 flex flex-col z-30 bg-white h-[25vh]"
+            style="absolute w-[14vw] top-[57vh] left-[64vw] shadow-lg justify-around px-2 flex flex-col z-30 bg-white h-[25vh]"
             name={travells}
             refName={ref}
             refVal={setRef}
