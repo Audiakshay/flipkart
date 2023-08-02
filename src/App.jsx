@@ -1,20 +1,18 @@
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import productsAction from "./Redux/Actions/ProductsList";
+import React from "react";
 import Home from "./Screens/Home";
-import Category from "./Components/Category";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
-import mobileAction from "./Redux/Actions/MobileAction";
 import MobilePage from "./Screens/MobilePage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
+<<<<<<< HEAD
 import Homefurniture from "./Screens/Homefurniture";
+=======
+import Groceries from "./Screens/Groceries";
+>>>>>>> 7001cf0b5b76e1f9765b3f085ac8cd8337b4aeff
 
 const App = () => {
   const route = createBrowserRouter([
@@ -43,8 +41,13 @@ const App = () => {
           element: <Appliances />,
         },
         {
+<<<<<<< HEAD
           path: "furniture",
           element: <Homefurniture/>,
+=======
+          path: "groceries",
+          element: <Groceries />,
+>>>>>>> 7001cf0b5b76e1f9765b3f085ac8cd8337b4aeff
         },
       ],
     },
