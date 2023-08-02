@@ -14,6 +14,7 @@ import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
+import Homefurniture from "./Screens/Homefurniture";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -40,6 +41,10 @@ const App = () => {
         {
           path: "appliances",
           element: <Appliances />,
+        },
+        {
+          path: "furniture",
+          element: <Homefurniture/>,
         },
       ],
     },
