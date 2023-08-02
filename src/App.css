@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type='text']:focus ~ .Label{
-    @apply transition-all text-black duration-200 ease-out bg-white font-semibold absolute -top-3
+input[type='text'] ~ .Label{
+    @apply transition-all text-black  duration-200 ease-out bg-white font-semibold absolute -top-[var(--i)]
 }
 /* input[type='text']~.Label{
     @apply transition-all text-black duration-200 ease-out bg-white font-semibold transform -translate-y-7
@@ -12,9 +12,9 @@ input[type='date']~.Label{
     @apply transition-all text-black duration-200 ease-out bg-white font-semibold transform -translate-y-7
 }
 
-input[type='date']{
-    color: black !important;
-}
+/* input[type='date']{
+    color: white !important;
+} */
 
 input[type='date']:focus ~ .Label{
     @apply transition-all duration-200 ease-out bg-white font-semibold transform -translate-y-7

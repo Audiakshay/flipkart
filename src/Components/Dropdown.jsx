@@ -1,23 +1,30 @@
-import React from 'react';
+import clsx from 'clsx'
+import React, { useState } from 'react'
 
-const Dropdown = ({ options, onSelect }) => {
+function Dropdown({ expand, cities, inputName, name, refVal, refName, style, setExpand, setExpandTravel, expandTravel }) {
+    
+    console.log(refName)
+
+    const handleChange = (e) => {
+        refVal({ ...refName, [inputName]: e });
+            setExpand(false)
+            setExpandTravel(false)
+      };
+
+
   return (
-    <select
-      onChange={(e) => onSelect(e.target.value)}
-      className="border border-gray-400 rounded-md p-2 focus:outline-none focus:ring focus:border-blue-300"
-    >
-      {options.map((option, index) => (
-        <option key={index} value={option.value}>
-          {option.label}
-        </option>
-      ))}
-    </select>
-  );
-};
+      <div>
+        <ul className={style}
+         >
+                  {
+                      name.map((x) => (
+                          <li key={x} onClick={() => handleChange(x)}>{x.toUpperCase()}</li>
+                      ))
+                }
+          </ul>
+            
+    </div>
+  )
+}
 
-export default Dropdown;
-
-
-
-
-
+export default Dropdown
