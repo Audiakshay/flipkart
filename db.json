@@ -19,7 +19,6 @@
         "img": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg",
         "id": 4
       }
-     
     ],
     "electronics": [
       {
@@ -703,5 +702,246 @@
         "count": 145
       }
     }
-  ]
+  ],
+  "groceries": [
+    {
+      "slider": [
+        {
+          "id": 1,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/1f43acbca54647c4.jpeg?q=70"
+        },
+        {
+          "id": 2,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/003f0acb2033e84e.png?q=70"
+        },
+        {
+          "id": 3,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/a80c9a630804e2ee.png?q=70"
+        },
+        {
+          "id": 4,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/c043eca56fb5c022.png?q=70"
+        },
+        {
+          "id": 5,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/45dcc16a75b452c9.png?q=70"
+        },
+        {
+          "id": 6,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/4d0ff8b8d3393c83.png?q=70"
+        },
+        {
+          "id": 7,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/e024ede2d36fd388.png?q=70"
+        },
+        {
+          "id": 8,
+          "img": "https://rukminim2.flixcart.com/flap/960/960/image/7991ac0613e2ddd5.png?q=75"
+        },
+        {
+          "id": 9,
+          "img": "https://rukminim2.flixcart.com/flap/1400/1400/image/ed04b09381eec3f9.jpg?q=50"
+        },
+        {
+          "id": 10,
+          "img": "https://rukminim2.flixcart.com/fk-p-flap/1312/704/image/365d40e7a6665255.jpeg?q=70"
+        }
+      ],
+      "household": [
+        {
+          "id": 1,
+          "img": "https://rukminim2.flixcart.com/image/192/192/xif0q/washing-bar/x/p/e/-original-imaggs6zny3uzfqa.jpeg?q=70",
+          "title": "Surf excel Detergent Bar",
+          "quantity": "800 g, Pack of 4",
+          "price": "₹107",
+          "oldPrice": "₹122",
+          "offer": "12% off"
+        },
+        {
+          "id": 2,
+          "img": "https://rukminim2.flixcart.com/image/192/192/k6nxrbk0/dish-washing-bar/n/c/t/touch-shine-round-2-1-4-exo-original-imafp2gwbmygunhg.jpeg?q=70",
+          "title": "Exo Touch & Shine Round Dishwash Bar",
+          "quantity": "2 x 0.7 kg",
+          "price": "₹135",
+          "oldPrice": "₹172",
+          "offer": "21% off"
+        },
+        {
+          "id": 3,
+          "img": "https://rukminim2.flixcart.com/image/192/192/ktx9si80/laundry-detergent/q/c/q/double-power-tide-original-imag75zkzzamhbsx.jpeg?q=70",
+          "title": "Tide Plus Double Power Jasmine and Rose",
+          "quantity": "4 kg",
+          "price": "₹469",
+          "oldPrice": "₹635",
+          "offer": "26% off"
+        },
+        {
+          "id": 4,
+          "img": "https://rukminim2.flixcart.com/image/192/192/xif0q/dish-cleaning-gel/f/d/h/-original-imagnz7zchhznjtr.jpeg?q=70",
+          "title": "Flipkart Supermart Home Essentials Dish washer",
+          "quantity": "Lemon, 0.75 L",
+          "price": "₹75",
+          "oldPrice": "₹160",
+          "offer": "53% off"
+        },
+        {
+          "id": 5,
+          "img": "https://rukminim2.flixcart.com/image/192/192/l4x2rgw0/washing-bar/u/y/i/-original-imagfpjrng39ummh.jpeg?q=70",
+          "title": "Rin Detergent Bar",
+          "quantity": "1000 g, Pack of 4",
+          "price": "₹87",
+          "oldPrice": "₹100",
+          "offer": "13% off"
+        },
+        {
+          "id": 6,
+          "title": "Surf excel Easy Wash Detergent Powder",
+          "quantity": "1.5 kg",
+          "price": "₹190",
+          "oldPrice": "₹235",
+          "offer": "19% off",
+          "img": "https://rukminim2.flixcart.com/image/192/192/ktrk13k0/washing-powder/r/v/h/easy-wash-surf-excel-original-imag7fhvbzvxgy5r.jpeg?q=70"
+        },
+        {
+          "id": 7,
+          "title": "Ghadi Detergent Powder 3 kg",
+          "quantity": "3 kg",
+          "price": "₹180",
+          "oldPrice": "₹210",
+          "offer": "14% off",
+          "img": "https://rukminim2.flixcart.com/image/192/192/xif0q/washing-powder/h/9/h/-original-imagnpznejzyrybq.jpeg?q=70"
+        },
+        {
+          "id": 8,
+          "title": "Morelight Extra Power Detergent Powder 4 kg",
+          "quantity": "4 kg",
+          "price": "₹262",
+          "oldPrice": "₹525",
+          "offer": "50% off",
+          "img": "https://rukminim2.flixcart.com/image/192/192/kiqbma80/washing-powder/d/d/z/4-extra-power-morelight-original-imafygf2b72tt9vn.jpeg?q=70"
+        },
+        {
+          "id": 9,
+          "title": "Tide Extra Power Jasmine and Rose",
+          "quantity": "Jasmine & Rose",
+          "price": "₹927",
+          "oldPrice": "₹1220",
+          "offer": "24% off",
+          "img": "https://rukminim2.flixcart.com/image/192/192/xif0q/washing-powder/h/c/o/-original-imaghub5harhtty9.jpeg?q=70"
+        },
+        {
+          "id": 10,
+          "img": "https://rukminim2.flixcart.com/image/192/192/l4x2rgw0/washing-bar/u/y/i/-original-imagfpjrng39ummh.jpeg?q=70",
+          "title": "Rin Detergent Bar",
+          "quantity": "1000 g, Pack of 4",
+          "price": "₹87",
+          "oldPrice": "₹100",
+          "offer": "13% off"
+        }
+      ]
+    }
+  ],
+  "appliances": {
+    "carousel": [
+      {
+        "url": "https://rukminim2.flixcart.com/flap/844/140/image/7b019cbf9d0c4186.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/50/50/image/45c7da48a2c911eb.jpg?q=50"
+      }
+    ],
+    "cards": [
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/235adb0c7e08598a.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/72916224131596eb.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/72f8581bfea9cbc9.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/eebfa3bd65729673.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/a11a507eb2e7d6d3.jpg?q=50"
+      },
+      {
+        "url": "https://rukminim2.flixcart.com/flap/100/100/image/d9954d5e398b8e38.jpg?q=50"
+      }
+    ],
+    "banner": "https://rukminim2.flixcart.com/fk-p-flap/50/50/image/e8aa5d1561448d40.jpg?q=50",
+    "starBrands": {
+      "title": "Star Brands",
+      "subTitle": "Top-Brands for you!",
+      "cards": [
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/e1ef54e6b7d4b397.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/f0c628a115217f53.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/4d9172fcafb80124.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/6bc444dacd6be318.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/b0169d1c9d207c04.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/0483b6fed863421a.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/0483b6fed863421a.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/d7b652afb2a0fb3f.jpg?q=50"
+        }
+      ]
+    },
+    "newLaunches": {
+      "title": "New Launches",
+      "subTitle": "Exciting New Launches for you!",
+      "cards": [
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/b17c7f27bcc877f4.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/01b928072cdda4b3.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/edcc4a6e114e00c8.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/4acda2bccff6d474.jpg?q=50"
+        }
+      ]
+    },
+    "newTechnology": {
+      "title": "New Technology",
+      "subTitle": "Finest technology only for you!",
+      "cards": [
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/ddfc94ae3da03a2d.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/ed34de5e789a9755.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/6fe579f2af1910db.jpg?q=50"
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/100/100/image/b0cfc7f57005c3d1.jpg?q=50"
+        }
+      ]
+    }
+  }
 }
