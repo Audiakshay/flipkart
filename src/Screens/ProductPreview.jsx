@@ -27,15 +27,15 @@ const ProductPreview = () => {
 
             <div className='w-full'>
                 <p className='text-2xl font-semibold'>
-                    {val.productTitle}
+                    {val?.productTitle}
                 </p>
                 <p className='font-bold text-[#878787]'>
-                    {val.rating}
+                    {val?.rating}
                 </p>
                 <div className='flex items-center gap-3'>
-                    <p className='text-2xl font-bold'>₹ {val.price}</p>
+                    <p className='text-2xl font-bold'>₹ {val?.price}</p>
                     <p className='text-xl font-bold text-green-600'>
-                        {val.offer}
+                        {val?.offer}
                     </p>
                 </div>
             <div className='py-1'>
