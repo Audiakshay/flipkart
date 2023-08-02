@@ -9,6 +9,7 @@ import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
 import Groceries from "./Screens/Groceries";
+import ProductPreview from "./Screens/ProductPreview";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -39,6 +40,10 @@ const App = () => {
         {
           path: "groceries",
           element: <Groceries />,
+        },
+        {
+          path: "prevProduct",
+          element: <ProductPreview />,
         },
       ],
     },
