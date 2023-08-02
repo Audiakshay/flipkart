@@ -25,7 +25,7 @@ function Appliances() {
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             {data?.carousel.map((item) => (
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div key={item} class="carousel-item active" data-bs-interval="10000">
                 <img src={item.url} class="d-block w-100" alt="..." />
               </div>
             ))}
