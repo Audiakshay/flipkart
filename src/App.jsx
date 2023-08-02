@@ -8,11 +8,10 @@ import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
-<<<<<<< HEAD
 import Homefurniture from "./Screens/Homefurniture";
-=======
 import Groceries from "./Screens/Groceries";
 import Electronics from "./Screens/Electronics";
+import ProductPreview from "./Screens/ProductPreview";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -41,13 +40,12 @@ const App = () => {
           element: <Appliances />,
         },
         {
-<<<<<<< HEAD
           path: "furniture",
-          element: <Homefurniture/>,
-=======
+          element: <Homefurniture />,
+        },
+        {
           path: "groceries",
           element: <Groceries />,
->>>>>>> 7001cf0b5b76e1f9765b3f085ac8cd8337b4aeff
         },
         {
           path: "prevProduct",
@@ -61,9 +59,7 @@ const App = () => {
     },
   ]);
 
-  return (
-   <RouterProvider router={route} />
-  );
+  return <RouterProvider router={route} />;
 };
 
 export default App;
