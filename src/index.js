@@ -7,11 +7,14 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/Store";
 import App from "./App";
+import ProductPreview from "./Screens/ProductPreview";
+import Home from "./Screens/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <App />
+
   </Provider>
 );
 

@@ -8,6 +8,7 @@ import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
+import Groceries from "./Screens/Groceries";
 
 const App = () => {
   const route = createBrowserRouter([
@@ -34,6 +35,10 @@ const App = () => {
         {
           path: "appliances",
           element: <Appliances />,
+        },
+        {
+          path: "groceries",
+          element: <Groceries />,
         },
       ],
     },
