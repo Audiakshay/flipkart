@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      {/* <Carousal pro={pro?.slider} card="slider" /> */}
+  
       <Category />
       <Carousal pro={pro?.slider} card="slider" />
       <CardSlider pro={pro?.electronics} card="Electronics" />

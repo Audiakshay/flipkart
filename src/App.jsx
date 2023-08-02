@@ -8,6 +8,9 @@ import DashBoard from "./Layout/DashBoard";
 import Travel from "./Screens/Travel";
 import Appliances from "./Screens/Appliances";
 import Fashion from "./Screens/Fashion";
+<<<<<<< HEAD
+import Homefurniture from "./Screens/Homefurniture";
+=======
 import Groceries from "./Screens/Groceries";
 import Electronics from "./Screens/Electronics";
 
@@ -38,8 +41,17 @@ const App = () => {
           element: <Appliances />,
         },
         {
+<<<<<<< HEAD
+          path: "furniture",
+          element: <Homefurniture/>,
+=======
           path: "groceries",
           element: <Groceries />,
+>>>>>>> 7001cf0b5b76e1f9765b3f085ac8cd8337b4aeff
+        },
+        {
+          path: "prevProduct",
+          element: <ProductPreview />,
         },
         {
           path: "electronics",
