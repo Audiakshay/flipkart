@@ -1,5 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import Input from '../Components/Input';
+import Dropdown from '../Components/Dropdown';
 
 
 function Travel() {
@@ -23,6 +25,17 @@ function Travel() {
             image:'https://rukminim2.flixcart.com/fk-p-flap/480/480/image/9e82b0b50809620b.jpg?q=50'
         }
     ]
+
+    const options = [
+        { value: 'option1', label: 'Option 1' },
+        { value: 'option2', label: 'Option 2' },
+        { value: 'option3', label: 'Option 3' },
+      ];
+    
+      const handleDropdownSelect = (selectedValue) => {
+        console.log('Selected value:', selectedValue);
+      };
+    
     
   return (
       <div>
@@ -41,28 +54,39 @@ function Travel() {
               </div>  */}
           {/* </div> */}
           <div className='relative'>
-              <h1 className='absolute top-5 left-[40%] text-3xl text-slate-100 font-[Rufina]'>Get. Set. Travel</h1>
+              <h1 className='absolute top-5 left-[40%] text-3xl text-white font-semibold font-[Rufina]'>Get. Set. Travel</h1>
               <img alt='' className='h-[80vh] w-[100vw] ' src='https://images.ctfassets.net/wqdtr8q8192q/28KbLkjsWV6G0MV11VfXmE/a2d73238229bfda923152ed30aa905ec/iStock-1353245759.jpg' />
               <div className='flex justify-center flex-col h-[30vh] w-[80vw] bg-white absolute top-[30vh] left-[10vw] rounded-md'>
-                  <div className='w-[15vw] flex justify-around m-2'>
-                  <input type='radio' />One way
-                  <input type='radio' />Round Trip
+                  <div className='w-[15vw] flex justify-evenly m-2'>
+                  <input type='radio'  name="o" /><label for="one">one way</label>
+                  <input type='radio'  name="o" /><label for="two">Round trip</label>
                   </div> 
                   <div className='flex items-center justify-around'>
-                      <div className='h-[8vh]'>
-                          <input type="text" className='border-2 p-3 text-sm' placeholder='From' />
-                          <p className='text-xs text-slate-400'>Any worldwide city to airport</p>
+                      <div className='h-[8vh] border-2 flex flex-col bg-transparent outline-none relative'>
+                          <input type="text" className='p-3 text-sm' />
+                          <p className='absolute top-4 left-4 text-  Label'>From</p>
+                          <p className='text-xs text-slate-400 mt-1'>Any worldwide city to airport</p>
+                      </div>    
+                      <div className='h-[8vh] border-2 flex flex-col bg-transparent outline-none relative'>
+                          <input type="text" className='p-3 text-sm' />
+                          <p className='absolute top-4 left-4 Label'>To</p>
+                          <p className='text-xs text-slate-400 mt-1'>Any worldwide city to airport</p>
                       </div>
-                      <div className='h-[8vh]'>
-                          <input type="text" className='border-2 p-3 text-sm' placeholder='To' />
-                          <p className='text-xs text-slate-400'>Any worldwide city to airport</p>
-                          
+                      <div className='h-[8vh] w-[10vw] border-2 flex flex-col bg-transparent outline-none relative'>
+                          <input type="date" className='p-3 text-sm' />
+                          <p className='absolute top-4 left-4 Label'>Depart on</p>
                       </div>
-                      <input type="text" className='border-2 p-3 text-sm w-[9vw]' placeholder='Depart on' />
-                      <input type="text" className='border-2 p-3 text-sm w-[9vw]' placeholder='Return on' />
-                      <input type="text" className='border-2 p-3 text-sm' placeholder='Travellers||class' />
-                      <button className='bg-blue-500 px-12 py-3 text-sm text-white'>Search</button>
+                      <div className='h-[8vh] w-[10vw] border-2 flex flex-col bg-transparent outline-none relative'>
+                          <input type="date" className='p-3 text-sm' />
+                          <p className='absolute top-4 left-4 Label'>Return on</p>
+                      </div>
+                      <div className='h-[8vh] border-2 flex flex-col bg-transparent outline-none relative'>
+                          <input type="text" className='p-3 text-sm' />
+                          <p className='absolute top-4 left-4 Label'>Travellers || class</p>
+                      </div>
+                      <button className='bg-blue-500 flex px-12 py-3 text-md gap-2 items-center text-white'><img alt='' className='h-5' src={require('../assets/search.png')} />Search</button>
                   </div>
+           
               </div>
           </div>
           <div className='mb-2'>
@@ -88,21 +112,21 @@ function Travel() {
           </div>
                 {/* cards */}
           <div className='flex flex-col items-center mt-3'>
-              <h1 className='text-2xl'>Best Offers</h1>
-              <p className='text-slate-400 text-xl'>Take a Break with Savings</p>
-              <div className='flex flex-wrap gap-3 justify-center'>
+              <h1 className='text-2xl py-2'>Best Offers</h1>
+              <p className='text-slate-400 text-xl py-2'>Take a Break with Savings</p>
+              <div className='flex flex-wrap gap-3 justify-center py-3'>
               {
                   arr.map((x) => (
                       <img alt='' src={x.image} className='bg-blue-100 h-[35vh] w-[30vw] rounded-xl' />
                   ))
               } 
               </div>
-              <p className='text-2xl font-semibold'>Fab Offers from Favourite Airlines</p>
-              <p className='text-xl text-slate-400'>Take a Break with Savings</p>
+              <p className='text-2xl font-semibold py-2'>Fab Offers from Favourite Airlines</p>
+              <p className='text-xl text-slate-400 py-2'>Take a Break with Savings</p>
           </div>
           {/* Top bank offers */}
           <div className='bg-stone-200 flex flex-col items-center py-3'>
-              <h1 className='text-2xl'>Top Bank Offers</h1>
+              <h1 className='text-2xl py-2'>Top Bank Offers</h1>
               <p className='text-slate-400'>Deals You Simply Can't Miss</p>
               <div>
                   <Carousel>
